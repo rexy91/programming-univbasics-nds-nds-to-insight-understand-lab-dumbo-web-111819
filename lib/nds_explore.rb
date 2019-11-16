@@ -13,7 +13,7 @@ end
 def print_first_directors_movie_titles
   i = 0
 while i < 6 do 
-print hash[0][:movies][i][:title]
+print directors_database[0][:movies][i][:title]
 i += 1 
 end
 end
